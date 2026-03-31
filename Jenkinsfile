@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "shivakrishnaanamala/instantprachi"
         DOCKER_TAG = "latest"
-        EC2_IP = "35.154.210.188"
+        EC2_IP = "43.205.95.201"
     }
 
     stages {
