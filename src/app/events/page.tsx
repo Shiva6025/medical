@@ -7,21 +7,21 @@ const upcomingEvents = [
     date: "June 15-18",
     location: "Hyderabad, India",
     type: "Conference",
-    image: "https://images.unsplash.com/photo-1540575861!5e5?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-15405758615e5?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "Advanced Arthroscopy Masterclass",
     date: "July 02",
     location: "VIRAAT Skills Lab, Mumbai",
     type: "Workshop",
-    image: "https://images.unsplash.com/photo-1517048676732-d!b5c3?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1517048676732-db5c3?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "Biologics in Sports Medicine Forum",
     date: "August 10",
     location: "Virtual Webinar",
     type: "Webinar",
-    image: "https://images.unsplash.com/photo-1591115765!372-ad4c!6a5?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1591115765372-ad4c6a5?auto=format&fit=crop&q=80&w=800"
   },
 ];
 

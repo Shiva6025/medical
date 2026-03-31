@@ -12,7 +12,7 @@ const categories = [
     name: "Sports Medicine",
     icon: <Activity className="w-5 h-5" />,
     description: "Innovative solutions for ligament reconstruction, meniscus repair, and shoulder stabilization.",
-    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f!d1c2?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3fd1c2?auto=format&fit=crop&q=80&w=800",
     features: ["Knotless Suture Anchors", "ACL/PCL Reconstruction", "Shoulder Arthroplasty"],
   },
   {
@@ -20,7 +20,7 @@ const categories = [
     name: "Joint Preservation",
     icon: <Bone className="w-5 h-5" />,
     description: "Advanced techniques to delay or prevent joint replacement through biological restoration.",
-    image: "https://images.unsplash.com/photo-1559757175-5700d!b5c3?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1559757175-5700db5c3?auto=format&fit=crop&q=80&w=800",
     features: ["Cartilage Repair", "Osteotomy Systems", "Meniscal Allograft"],
   },
   {
@@ -28,7 +28,7 @@ const categories = [
     name: "Arthroplasty",
     icon: <Activity className="w-5 h-5" />,
     description: "Comprehensive primary and revision systems for total hip and knee replacement.",
-    image: "https://images.unsplash.com/photo-1581093588401-fbbd!d404?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1581093588401-fbbdd404?auto=format&fit=crop&q=80&w=800",
     features: ["Total Knee Systems", "Hip Revision Sets", "Custom Instruments"],
   },
   {
@@ -36,7 +36,7 @@ const categories = [
     name: "Biologics",
     icon: <Microscope className="w-5 h-5" />,
     description: "Biotechnological solutions for orthobiologics and rheumatology applications.",
-    image: "https://images.unsplash.com/photo-1532187863486-abf9d!7931?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1532187863486-abf9d7931?auto=format&fit=crop&q=80&w=800",
     features: ["Bone Grafts", "PRP Systems", "Amniotic Tissue"],
   },
 ];

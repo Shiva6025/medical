@@ -16,14 +16,14 @@ const Innovations = [
   {
     title: "SutureAnchor™ Loading Video",
     description: "Step-by-step procedure for efficient anchor loading and deployment.",
-    image: "https://images.unsplash.com/photo-1576091160550-2173bc!3f9b?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1576091160550-2173bc113f9b?auto=format&fit=crop&q=80&w=800",
     date: "Feb 2026",
     author: "Technical Center",
   },
   {
     title: "ACL Repair: FiberTape System",
     description: "Bio-compression technology for enhanced internal brace stability.",
-    image: "https://images.unsplash.com/photo-1516549655169-df83a!724?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1516549655169-df83a724?auto=format&fit=crop&q=80&w=800",
     date: "Jan 2026",
     author: "Dr. Annamala",
   },

@@ -52,7 +52,7 @@ export default function InnovationsPage() {
         <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2 rounded-3xl overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1551601651-!d83!410d?auto=format&fit=crop&q=80&w=800" 
+              src="https://images.unsplash.com/photo-1551601651-d83410d?auto=format&fit=crop&q=80&w=800" 
               alt="Surgical Labs" 
               className="w-full h-full object-cover"
             />
