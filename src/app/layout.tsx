@@ -17,6 +17,9 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "VIRAAT Medical | Pioneering Surgical Excellence",
   description: "Improving lives through medical innovation. Explore our knotless tensionable technology and advanced surgical solutions.",
+  icons: {
+    icon: "/dark-logo.jpeg",
+  },
 };
 
 export default function RootLayout({

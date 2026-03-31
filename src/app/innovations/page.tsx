@@ -13,8 +13,8 @@ const topics = [
 
 export default function InnovationsPage() {
   return (
-    <div className="pt-20">
-      <section className="bg-primary text-white py-24 relative overflow-hidden">
+    <div>
+      <section className="bg-primary text-white pt-44 pb-24 relative overflow-hidden">
         <div className="container mx-auto px-6 relative z-10 text-center">
           <span className="text-secondary font-bold text-xs uppercase tracking-widest mb-4 block">Education & Research</span>
           <h1 className="text-5xl md:text-7xl font-bold font-outfit mb-6">Medical <span className="text-secondary">Innovations</span></h1>

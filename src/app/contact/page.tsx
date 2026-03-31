@@ -2,8 +2,8 @@ import { Mail, Phone, MapPin, Search, Send, Clock, ArrowUpRight } from "lucide-r
 
 export default function ContactPage() {
   return (
-    <div className="pt-20 bg-white">
-      <section className="bg-primary text-white py-24 relative overflow-hidden">
+    <div className="bg-white">
+      <section className="bg-primary text-white pt-44 pb-24 relative overflow-hidden">
         <div className="container mx-auto px-6 relative z-10 text-center">
           <h1 className="text-5xl md:text-7xl font-bold font-outfit mb-6">Contact <span className="text-secondary">Us</span></h1>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">

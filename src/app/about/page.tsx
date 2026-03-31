@@ -11,9 +11,9 @@ const stats = [
 
 export default function AboutPage() {
   return (
-    <div className="pt-20">
+    <div>
       {/* Page Header */}
-      <section className="bg-primary text-white py-24 relative overflow-hidden">
+      <section className="bg-primary text-white pt-44 pb-24 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-secondary rounded-full blur-[120px]" />
         </div>

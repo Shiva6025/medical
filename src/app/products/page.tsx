@@ -31,17 +31,19 @@ function ProductsContent() {
     : allProducts.filter(p => p.category === activeCategory);
 
   return (
-    <div className="pt-32 pb-24 min-h-screen bg-white">
-      <div className="container mx-auto px-6">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold text-primary font-outfit mb-4">
+    <div className="min-h-screen bg-white">
+      <section className="bg-primary text-white pt-44 pb-24 relative overflow-hidden mb-16">
+        <div className="container mx-auto px-6 relative z-10 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold font-outfit mb-6">
             Product <span className="text-secondary">Catalog</span>
           </h1>
-          <p className="text-primary/60 text-lg">
+          <p className="text-white/60 text-lg max-w-2xl mx-auto">
             Explore our state-of-the-art surgical instrumentation and implant systems.
           </p>
         </div>
+      </section>
 
+      <div className="container mx-auto px-6 pb-24">
         {/* Filter bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-12 bg-accent/30 p-4 rounded-2xl border border-gray-100">
           <div className="flex flex-wrap gap-2">

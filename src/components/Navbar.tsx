@@ -17,7 +17,6 @@ const NavLinks = [
 
 export default function Navbar() {
   const pathname = usePathname();
-  const isHomePage = pathname === "/";
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -33,7 +32,7 @@ export default function Navbar() {
     <nav
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        (isScrolled || !isHomePage) ? "glass h-16 shadow-lg" : "bg-transparent h-20"
+        isScrolled ? "glass h-16 shadow-lg" : "bg-transparent h-20"
       )}
     >
       <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
@@ -41,15 +40,17 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 group">
           <div className="relative w-12 h-12 overflow-hidden rounded-lg bg-white/10 group-hover:bg-white/20 transition-all">
             <Image
-              src="/logo.png"
+              src={isScrolled ? "/dark-logo.jpeg" : "/white-logo.jpeg"}
               alt="VIRAAT Logo"
               fill
-              className="object-contain p-1"
+              quality={100}
+              priority
+              className="object-contain p-1 rounded-lg"
             />
           </div>
           <span className={cn(
             "text-2xl font-bold tracking-tight transition-colors",
-            (isScrolled || !isHomePage) ? "text-primary" : "text-white"
+            isScrolled ? "text-primary" : "text-white"
           )}>
             VIRAAT
           </span>
@@ -63,7 +64,7 @@ export default function Navbar() {
                 href={link.href}
                 className={cn(
                   "flex items-center gap-1 text-sm font-semibold uppercase tracking-wider transition-all hover:text-secondary",
-                  (isScrolled || !isHomePage) ? "text-primary/80" : "text-white/90"
+                  isScrolled ? "text-primary/80" : "text-white/90"
                 )}
               >
                 {link.name}
@@ -78,7 +79,7 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-6">
           <button className={cn(
             "transition-colors",
-            (isScrolled || !isHomePage) ? "text-primary/60 hover:text-primary" : "text-white/60 hover:text-white"
+            isScrolled ? "text-primary/60 hover:text-primary" : "text-white/60 hover:text-white"
           )}>
             <Search className="w-5 h-5" />
           </button>
@@ -91,7 +92,7 @@ export default function Navbar() {
         <button
           className={cn(
             "lg:hidden p-2 rounded-lg",
-            (isScrolled || !isHomePage) ? "text-primary hover:bg-black/5" : "text-white hover:bg-white/10"
+            isScrolled ? "text-primary hover:bg-black/5" : "text-white hover:bg-white/10"
           )}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
