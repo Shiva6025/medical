@@ -8,11 +8,11 @@ import { Menu, X, ChevronDown, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NavLinks = [
+  { name: "About Us", href: "/about", hasDropdown: false },
   { name: "Products", href: "/products", hasDropdown: true },
   { name: "Innovations", href: "/innovations", hasDropdown: false },
-  { name: "Education", href: "/education", hasDropdown: true },
+  // { name: "Education", href: "/education", hasDropdown: true },
   { name: "News & Events", href: "/events", hasDropdown: false },
-  { name: "About Us", href: "/about", hasDropdown: false },
 ];
 
 export default function Navbar() {
