@@ -38,7 +38,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="relative w-12 h-12 overflow-hidden rounded-lg bg-white/10 group-hover:bg-white/20 transition-all">
+          <div className="relative w-32 h-12 overflow-hidden rounded-lg bg-white/10 group-hover:bg-white/20 transition-all">
             <Image
               src={isScrolled ? "/dark-logo.jpeg" : "/white-logo.jpeg"}
               alt="VIRAAT Logo"
@@ -48,12 +48,12 @@ export default function Navbar() {
               className="object-contain p-1 rounded-lg"
             />
           </div>
-          <span className={cn(
+          {/* <span className={cn(
             "text-2xl font-bold tracking-tight transition-colors",
             isScrolled ? "text-primary" : "text-white"
           )}>
             VIRAAT
-          </span>
+          </span> */}
         </Link>
 
         {/* Desktop Navigation */}
