@@ -39,13 +39,12 @@ pipeline {
     steps {
         sshagent(['ec2-ssh-key']) {
             sh '''
-ssh -o StrictHostKeyChecking=no ubuntu@43.205.95.201 "
+ssh -o StrictHostKeyChecking=no ubuntu@43.205.95.201 << EOF
 docker pull shivakrishnaanamala/instantprachi:latest
 docker stop my-app || true
 docker rm my-app || true
 docker run -d -p 80:3000 --name my-app shivakrishnaanamala/instantprachi:latest
-
-"
+EOF
 '''
         }
     }
